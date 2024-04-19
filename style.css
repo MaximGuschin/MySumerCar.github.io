@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Yuji+Mai&display=swap');
+*{
+    margin: 0;
+}
+body{
+    background-color: #1a1919;
+}
+.fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+.shapka{
+    background-color: #B67D40;
+    padding: 20px 5%;
+}
+.shapka>*{
+    display: inline-block;
+    width: 17%;
+}
+.shapka>h1{
+    font-family: "Yuji Mai", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #0A0500;
+}
+.shapka a{
+    text-decoration: none;
+    color: #0A0500;
+    font-size: 20px;
+    margin: 0 5px;
+}
+
+main>h1{
+    padding: 20% 10% 0;
+    color: #B67D40;
+    font-size: 40px;
+}
+main>p{
+    padding: 0 10% 20% 10%;
+    color: #E7C2A6;
+    font-size: 30px;
+}
+main>img{
+    position: absolute;
+    width: 600px;
+    right: 20%;
+    top: 20%;
+    border-radius: 50%;
+}
+#istoria{
+    margin: 10% 0;
+    padding: 0 10%;
+    text-align: center;
+}
+#istoria>*{
+    color: #E7C2A6;
+}
+#istoria>h2{
+    font-size: 32px;
+}
+#istoria>p{
+    font-size: 25px;
+}
+.usluga>*{
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+}
+.usluga>p{
+    position: absolute;
+    color: #E7C2A6;
+    width: 400px;
+    font-size: 25px;
+}
+.usluga>img{
+    position: absolute;
+    width: 400px;
+    padding: 20px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom right,#B67D40,#512204);
+}
+.usluga{
+    position: relative;
+    height: 450px;
+}
+.pravo>img{
+    top: 10px;
+    right: 10px;
+}
+.levo>img{
+    top: 10px;
+    left: 10px;
+}
+.pravo>p{
+    bottom: 100px;
+    right: 500px;
+}
+.levo>p{
+    bottom: 100px;
+    left: 500px;
+}
+.zakaz{
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    margin: 200px auto;
+    max-width: 1200px;
+}
+.zakaz>header{
+    background: linear-gradient(#B67D40,#0a0500);
+    width: 300px;
+    padding: 30px;
+    border: 2px solid #000;
+    border-radius: 20px;
+    text-align: center;
+}
+.zakaz img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 20px;
+}
+.zakaz a{
+    text-decoration: none;
+    color: #E7C2A6;
+    display: block;
+}
+
+footer{
+    text-align: center;
+    margin: 30px 0;
+}
+.links{
+    display: flex;
+    justify-content: center;
+}
+footer a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: #B67D40 solid 3px;
+    border-radius: 20px;
+    margin: 0 10px;
+    color: #B67D40;
+    font-size: 20px;
+}
